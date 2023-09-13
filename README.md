@@ -41,7 +41,7 @@ int main() {
     secretNumber = rand() % (maxRange - minRange + 1) + minRange;
 
     printf("Welcome to the Number Guessing Game!\n");
-    printf("I've chosen a number between %d and %d.\n", minRange, maxRange);
+    printf("You've chosen a number between %d and %d.\n", minRange, maxRange);
 
     while (attempts < maxAttempts) {
         printf("Attempts left: %d\n", maxAttempts - attempts);
